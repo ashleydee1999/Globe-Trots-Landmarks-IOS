@@ -1,0 +1,38 @@
+[
+    {
+        "landMarkName": "Pilanesberg National Park",
+        "restaurantName": "Manyane Complex",
+        "restaurantRating": "4.3",
+        "restaurantDistance":"1.3KM",
+        "restaurantCat":"outdoor",
+        "restaurantImg": "pnpIMG",
+        
+    },
+    
+    {
+        "landMarkName": "Sunland Baobab",
+        "restaurantName": "Manyane Complex",
+        "restaurantRating": "5",
+        "restaurantDistance":"1.3KM",
+        "restaurantCat":"diner",
+        "restaurantImg": "pnpIMG"
+    },
+    {
+        "landMarkName": "Phabeni Gate Kruger National Park",
+        "restaurantName": "Manyane Complex",
+        "restaurantRating": "3.2",
+        "restaurantDistance":"1.3KM",
+        "restaurantCat":"outdoor",
+        "restaurantImg": "pnpIMG"
+    },
+    
+    {
+        "landMarkName": "Pilanesberg National Park",
+        "restaurantName": "Manyane Complex",
+        "restaurantRating": "4.9",
+        "restaurantDistance":"1.3KM",
+        "restaurantCat":"diner",
+        "restaurantImg": "pnpIMG"
+    }
+
+]

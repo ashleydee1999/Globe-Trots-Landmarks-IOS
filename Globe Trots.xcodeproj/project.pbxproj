@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E96BC21AFB1C5D23C60930D /* Pods_Globe_Trots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157347655C21E313C889BE6C /* Pods_Globe_Trots.framework */; };
+		8246696F264DD04900A04B2B /* LandMarksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246696E264DD04900A04B2B /* LandMarksModel.swift */; };
+		82466973264DD15200A04B2B /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82466972264DD15200A04B2B /* DB_Manager.swift */; };
+		82466977264DD68000A04B2B /* FavouriteLandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82466976264DD68000A04B2B /* FavouriteLandmarksView.swift */; };
+		8246697A264DD73A00A04B2B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82466979264DD73A00A04B2B /* MainView.swift */; };
+		8257B807264D2C0500231815 /* landmarksRestaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 8257B806264D2C0500231815 /* landmarksRestaurants.json */; };
+		8257B80B264D2DAB00231815 /* JSONFileDecoder3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B80A264D2DAB00231815 /* JSONFileDecoder3.swift */; };
+		8257B80F264D2E6B00231815 /* FeaturedRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B80E264D2E6B00231815 /* FeaturedRestaurants.swift */; };
+		82831762263E4AC50026470E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831761263E4AC50026470E /* NavigationBarView.swift */; };
+		82831765263E53D20026470E /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831764263E53D20026470E /* LogoView.swift */; };
+		82831769264374560026470E /* FeaturedActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82831768264374560026470E /* FeaturedActivities.swift */; };
+		8283176E26493A700026470E /* landmarksActivities.json in Resources */ = {isa = PBXBuildFile; fileRef = 8283176D26493A700026470E /* landmarksActivities.json */; };
+		8283177126493C790026470E /* JSONFileDecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283177026493C790026470E /* JSONFileDecorder.swift */; };
+		82B5FDA7264BDB58009EAAB0 /* listView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5FDA6264BDB58009EAAB0 /* listView.swift */; };
+		82BB76BF26568D3000BB37C0 /* GTLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BB76BE26568D3000BB37C0 /* GTLaunchScreen.storyboard */; };
+		82C485F0264BE9030022BB7A /* JSONFileDecoder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C485EF264BE9030022BB7A /* JSONFileDecoder2.swift */; };
+		82DDE17F2655DE640095BC96 /* ProvincesViewWF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DDE17E2655DE640095BC96 /* ProvincesViewWF.swift */; };
+		82FF52092638C84000E754EF /* Globe_TrotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF52082638C84000E754EF /* Globe_TrotsApp.swift */; };
+		82FF520B2638C84000E754EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF520A2638C84000E754EF /* ContentView.swift */; };
+		82FF520D2638C84400E754EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FF520C2638C84400E754EF /* Assets.xcassets */; };
+		82FF52102638C84400E754EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FF520F2638C84400E754EF /* Preview Assets.xcassets */; };
+		82FF521A2638CA0700E754EF /* PlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF52192638CA0700E754EF /* PlaceDetails.swift */; };
+		82FF52242638D79300E754EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF52232638D79300E754EF /* MapView.swift */; };
+		82FF52272638DAF700E754EF /* LandMarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF52262638DAF700E754EF /* LandMarksView.swift */; };
+		82FF52332638F35F00E754EF /* provincialLandmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 82FF52322638F35F00E754EF /* provincialLandmarks.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157347655C21E313C889BE6C /* Pods_Globe_Trots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Globe_Trots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295F1C56C7CA79D4BEEBEA13 /* Pods-Globe Trots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Globe Trots.debug.xcconfig"; path = "Target Support Files/Pods-Globe Trots/Pods-Globe Trots.debug.xcconfig"; sourceTree = "<group>"; };
+		467CBC641C454CDFCDD3B8A8 /* Pods-Globe Trots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Globe Trots.release.xcconfig"; path = "Target Support Files/Pods-Globe Trots/Pods-Globe Trots.release.xcconfig"; sourceTree = "<group>"; };
+		8246696E264DD04900A04B2B /* LandMarksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarksModel.swift; sourceTree = "<group>"; };
+		82466972264DD15200A04B2B /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		82466976264DD68000A04B2B /* FavouriteLandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteLandmarksView.swift; sourceTree = "<group>"; };
+		82466979264DD73A00A04B2B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8257B806264D2C0500231815 /* landmarksRestaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarksRestaurants.json; sourceTree = "<group>"; };
+		8257B80A264D2DAB00231815 /* JSONFileDecoder3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileDecoder3.swift; sourceTree = "<group>"; };
+		8257B80E264D2E6B00231815 /* FeaturedRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRestaurants.swift; sourceTree = "<group>"; };
+		82831761263E4AC50026470E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		82831764263E53D20026470E /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		82831768264374560026470E /* FeaturedActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedActivities.swift; sourceTree = "<group>"; };
+		8283176D26493A700026470E /* landmarksActivities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarksActivities.json; sourceTree = "<group>"; };
+		8283177026493C790026470E /* JSONFileDecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileDecorder.swift; sourceTree = "<group>"; };
+		82B5FDA6264BDB58009EAAB0 /* listView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listView.swift; sourceTree = "<group>"; };
+		82BB76BE26568D3000BB37C0 /* GTLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GTLaunchScreen.storyboard; sourceTree = "<group>"; };
+		82C485EF264BE9030022BB7A /* JSONFileDecoder2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileDecoder2.swift; sourceTree = "<group>"; };
+		82DDE17E2655DE640095BC96 /* ProvincesViewWF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvincesViewWF.swift; sourceTree = "<group>"; };
+		82FF52052638C84000E754EF /* Globe Trots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Globe Trots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FF52082638C84000E754EF /* Globe_TrotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe_TrotsApp.swift; sourceTree = "<group>"; };
+		82FF520A2638C84000E754EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82FF520C2638C84400E754EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FF520F2638C84400E754EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82FF52112638C84400E754EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FF52192638CA0700E754EF /* PlaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetails.swift; sourceTree = "<group>"; };
+		82FF52232638D79300E754EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		82FF52262638DAF700E754EF /* LandMarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarksView.swift; sourceTree = "<group>"; };
+		82FF52322638F35F00E754EF /* provincialLandmarks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = provincialLandmarks.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FF52022638C84000E754EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E96BC21AFB1C5D23C60930D /* Pods_Globe_Trots.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82466960264DB5E400A04B2B /* Application Views */ = {
+			isa = PBXGroup;
+			children = (
+				82FF52082638C84000E754EF /* Globe_TrotsApp.swift */,
+				82466976264DD68000A04B2B /* FavouriteLandmarksView.swift */,
+				82466979264DD73A00A04B2B /* MainView.swift */,
+				82FF520A2638C84000E754EF /* ContentView.swift */,
+				8257B80E264D2E6B00231815 /* FeaturedRestaurants.swift */,
+				82BB76BE26568D3000BB37C0 /* GTLaunchScreen.storyboard */,
+				82FF52262638DAF700E754EF /* LandMarksView.swift */,
+				82DDE17E2655DE640095BC96 /* ProvincesViewWF.swift */,
+				82FF52232638D79300E754EF /* MapView.swift */,
+				82831768264374560026470E /* FeaturedActivities.swift */,
+				82FF52192638CA0700E754EF /* PlaceDetails.swift */,
+			);
+			path = "Application Views";
+			sourceTree = "<group>";
+		};
+		82466962264DB6A300A04B2B /* Component Views */ = {
+			isa = PBXGroup;
+			children = (
+				82831761263E4AC50026470E /* NavigationBarView.swift */,
+				82B5FDA6264BDB58009EAAB0 /* listView.swift */,
+				82831764263E53D20026470E /* LogoView.swift */,
+			);
+			path = "Component Views";
+			sourceTree = "<group>";
+		};
+		82466965264DB73300A04B2B /* Functionality Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				8283177026493C790026470E /* JSONFileDecorder.swift */,
+				82C485EF264BE9030022BB7A /* JSONFileDecoder2.swift */,
+				8257B80A264D2DAB00231815 /* JSONFileDecoder3.swift */,
+			);
+			path = "Functionality Handlers";
+			sourceTree = "<group>";
+		};
+		82466966264DB7A700A04B2B /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				8283176D26493A700026470E /* landmarksActivities.json */,
+				82FF52322638F35F00E754EF /* provincialLandmarks.json */,
+				8257B806264D2C0500231815 /* landmarksRestaurants.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
+		8246696D264DD00700A04B2B /* DB Handler */ = {
+			isa = PBXGroup;
+			children = (
+				8246696E264DD04900A04B2B /* LandMarksModel.swift */,
+				82466972264DD15200A04B2B /* DB_Manager.swift */,
+			);
+			path = "DB Handler";
+			sourceTree = "<group>";
+		};
+		82FF51FC2638C84000E754EF = {
+			isa = PBXGroup;
+			children = (
+				82FF52072638C84000E754EF /* Globe Trots */,
+				82FF52062638C84000E754EF /* Products */,
+				B57B022FB75969B6540CBB94 /* Pods */,
+				9FB4BCE1505F0D3F70608937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82FF52062638C84000E754EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FF52052638C84000E754EF /* Globe Trots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FF52072638C84000E754EF /* Globe Trots */ = {
+			isa = PBXGroup;
+			children = (
+				82466960264DB5E400A04B2B /* Application Views */,
+				82466962264DB6A300A04B2B /* Component Views */,
+				82466965264DB73300A04B2B /* Functionality Handlers */,
+				82466966264DB7A700A04B2B /* JSON Files */,
+				8246696D264DD00700A04B2B /* DB Handler */,
+				82FF520C2638C84400E754EF /* Assets.xcassets */,
+				82FF52112638C84400E754EF /* Info.plist */,
+				82FF520E2638C84400E754EF /* Preview Content */,
+			);
+			path = "Globe Trots";
+			sourceTree = "<group>";
+		};
+		82FF520E2638C84400E754EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82FF520F2638C84400E754EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FB4BCE1505F0D3F70608937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157347655C21E313C889BE6C /* Pods_Globe_Trots.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B57B022FB75969B6540CBB94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				295F1C56C7CA79D4BEEBEA13 /* Pods-Globe Trots.debug.xcconfig */,
+				467CBC641C454CDFCDD3B8A8 /* Pods-Globe Trots.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FF52042638C84000E754EF /* Globe Trots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FF52142638C84400E754EF /* Build configuration list for PBXNativeTarget "Globe Trots" */;
+			buildPhases = (
+				E8C880EEA76C3241F5487C83 /* [CP] Check Pods Manifest.lock */,
+				82FF52012638C84000E754EF /* Sources */,
+				82FF52022638C84000E754EF /* Frameworks */,
+				82FF52032638C84000E754EF /* Resources */,
+				D96FC47458783422B37A07DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Globe Trots";
+			productName = "Globe Trots";
+			productReference = 82FF52052638C84000E754EF /* Globe Trots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FF51FD2638C84000E754EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82FF52042638C84000E754EF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 82FF52002638C84000E754EF /* Build configuration list for PBXProject "Globe Trots" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FF51FC2638C84000E754EF;
+			productRefGroup = 82FF52062638C84000E754EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FF52042638C84000E754EF /* Globe Trots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FF52032638C84000E754EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FF52102638C84400E754EF /* Preview Assets.xcassets in Resources */,
+				8283176E26493A700026470E /* landmarksActivities.json in Resources */,
+				82FF52332638F35F00E754EF /* provincialLandmarks.json in Resources */,
+				8257B807264D2C0500231815 /* landmarksRestaurants.json in Resources */,
+				82BB76BF26568D3000BB37C0 /* GTLaunchScreen.storyboard in Resources */,
+				82FF520D2638C84400E754EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D96FC47458783422B37A07DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Globe Trots/Pods-Globe Trots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Globe Trots/Pods-Globe Trots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Globe Trots/Pods-Globe Trots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8C880EEA76C3241F5487C83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Globe Trots-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FF52012638C84000E754EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FF520B2638C84000E754EF /* ContentView.swift in Sources */,
+				8246697A264DD73A00A04B2B /* MainView.swift in Sources */,
+				82FF521A2638CA0700E754EF /* PlaceDetails.swift in Sources */,
+				82FF52272638DAF700E754EF /* LandMarksView.swift in Sources */,
+				82FF52242638D79300E754EF /* MapView.swift in Sources */,
+				8257B80F264D2E6B00231815 /* FeaturedRestaurants.swift in Sources */,
+				8257B80B264D2DAB00231815 /* JSONFileDecoder3.swift in Sources */,
+				82FF52092638C84000E754EF /* Globe_TrotsApp.swift in Sources */,
+				82831765263E53D20026470E /* LogoView.swift in Sources */,
+				82831769264374560026470E /* FeaturedActivities.swift in Sources */,
+				8283177126493C790026470E /* JSONFileDecorder.swift in Sources */,
+				82831762263E4AC50026470E /* NavigationBarView.swift in Sources */,
+				82466973264DD15200A04B2B /* DB_Manager.swift in Sources */,
+				82DDE17F2655DE640095BC96 /* ProvincesViewWF.swift in Sources */,
+				82466977264DD68000A04B2B /* FavouriteLandmarksView.swift in Sources */,
+				82B5FDA7264BDB58009EAAB0 /* listView.swift in Sources */,
+				8246696F264DD04900A04B2B /* LandMarksModel.swift in Sources */,
+				82C485F0264BE9030022BB7A /* JSONFileDecoder2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82FF52122638C84400E754EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82FF52132638C84400E754EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FF52152638C84400E754EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295F1C56C7CA79D4BEEBEA13 /* Pods-Globe Trots.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Globe Trots/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C6QTW6K96;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Globe Trots/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley.Dube.Globe-Trots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82FF52162638C84400E754EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467CBC641C454CDFCDD3B8A8 /* Pods-Globe Trots.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Globe Trots/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C6QTW6K96;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Globe Trots/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley.Dube.Globe-Trots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FF52002638C84000E754EF /* Build configuration list for PBXProject "Globe Trots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FF52122638C84400E754EF /* Debug */,
+				82FF52132638C84400E754EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FF52142638C84400E754EF /* Build configuration list for PBXNativeTarget "Globe Trots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FF52152638C84400E754EF /* Debug */,
+				82FF52162638C84400E754EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FF51FD2638C84000E754EF /* Project object */;
+}

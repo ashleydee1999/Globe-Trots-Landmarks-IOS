@@ -1,0 +1,110 @@
+[
+	{
+		"provinceName": "Western Cape",
+		"provinceImg": "wcimg",
+		"landMarkName": "Table Mountain",
+		"landMarkImg": "tmountain",
+		"phone": "021 425 5852",
+		"city": "Cape Town",
+		"description": "The highest point of Table Mountain is 1 086m (3 563 feet) above sea level. It's called Maclear's Beacon after the man who built a stone cairn at the site in 1865. ... Table Mountain is thought to be one of the oldest mountains in the world. The rocks of the mountain are approximately 600-million years old",
+		"latitude": "-25.7677",
+		"longitude": "28.1993"
+	},
+	
+	{
+		"provinceName": "Gauteng",
+		"provinceImg": "gauimg",
+		"landMarkName": "Union Buildings",
+		"landMarkImg": "unionBuild",
+		"phone": "021 425 5852",
+		"city": "Pretoria",
+		"description": "The Union Buildings (Afrikaans: Uniegebou) form the official seat of the South African Government and also house the offices of the President of South Africa. The imposing buildings are located in Pretoria, atop Meintjieskop at the northern end of Arcadia, close to historic Church Square and the Voortrekker Monument. ",
+		"latitude": "-25.7677",
+		"longitude": "28.1993"
+	},
+	
+	{
+		"provinceName": "Kwazulu Natal",
+		"provinceImg": "kznimg",
+		"landMarkName": "Sani Pass",
+		"landMarkImg": "sanipass",
+		"phone": "021 425 5852",
+		"city": "Underberg",
+		"description": "Premier Resort Sani Pass is a stunning resort in the Southern Drakensberg nestled at the foot of the Pass and on the banks of the Mkhomazana River with its fresh water coming straight from the Drakensberg Mountains.",
+		"latitude": "-25.7677",
+		"longitude": "28.1993"
+	},
+	
+	{
+		"provinceName": "Limpopo",
+		"provinceImg": "lppimg",
+		"landMarkName": "Sunland Baobab",
+		"landMarkImg": "sunbao",
+		"phone": "021 425 5852",
+		"city": "Modjadjiskloo",
+		"description": "Sunland Baobab (also Platland Baobab, Mooketsi Baobab, Tree Bar, Big Baobab or Pub Tree) is a well-known enormous baobab (Adansonia digitata) in South Africa. The tree is located on Sunland Farm (Platland Farm), near Modjadjiskloof (previously known as Duiwelskloof), Limpopo Province.",
+		"latitude": "-25.7677",
+		"longitude": "28.1993"
+	},
+	
+	{
+		"provinceName": "Mpumalanga",
+		"provinceImg": "mpimg",
+		"landMarkName": "Phabeni Gate Kruger National Park",
+		"landMarkImg": "pgknp",
+		"phone": "021 425 5852",
+		"city": "Nelspruit",
+		"description": "Phabeni Gate is the closest entrance into the Kruger from Hazyview – just 10 kilometres. For those travelling to Kruger from Nelspruit for the day, Phabeni gate makes the already easy journey even simpler – you're in the magnificent Kruger in just over an hour and a quarter.",
+		"latitude": "-25.7677",
+		"longitude": "28.1993"
+	},
+    
+    {
+        "provinceName": "Free State",
+        "provinceImg": "mpimg",
+        "landMarkName": "Free State National Botanical Garden",
+        "landMarkImg": "fsbtgIMG",
+        "phone": "021 425 5852",
+        "city": "Bloemfontein",
+        "description": "The Free State National Botanical Garden, located just outside Bloemfontein covers 70 hectares, and is home to about 400 species of plants, largely native to Free State and Northern Cape Provinces and Lesotho",
+        "latitude": "-25.7677",
+        "longitude": "28.1993"
+    },
+    
+    {
+    "provinceName": "Northern Cape",
+    "provinceImg": "",
+    "landMarkName": "Kgalagadi (Kalahari) Transfrontier Park",
+    "landMarkImg": "kgtpIMG",
+    "phone": "021 425 5852",
+    "city": "Upington",
+    "description": "South Africa's Kalahari Gemsbok National Park and Botswana's Gemsbok National Park merged, creating one of the largest wilderness areas in the world-more than 3.6 million hectares.",
+    "latitude": "-25.7677",
+    "longitude": "28.1993"
+    },
+    
+    {
+    "provinceName": "Eastern Cape",
+    "provinceImg": "",
+    "landMarkName": "Camdeboo National Park",
+    "landMarkImg": "cmnpIMG",
+    "phone": "021 425 5852",
+    "city": "Graaff-Reinet",
+    "description": "",
+    "latitude": "-25.7677",
+    "longitude": "28.1993"
+    },
+    
+    {
+    "provinceName": "North West",
+    "provinceImg": "",
+    "landMarkName": "Pilanesberg National Park",
+    "landMarkImg": "pnpIMG",
+    "phone": "021 425 5852",
+    "city": "Rustenberg",
+    "description": "The Pilanesberg Game Reserve is located north of Rustenburg in North West Province in South Africa. The park borders on the Sun City entertainment complex",
+    "latitude": "-25.250123977661133",
+    "longitude": "27.076492309570312"
+    }
+]
+

@@ -1,0 +1,39 @@
+[
+    {
+        "landMarkName": "Pilanesberg National Park",
+        "actName": "Manyane Complex",
+        "actCat":"Hiking",
+        "actLength":"5KM",
+        "actImg": "pnpIMG"
+    },
+    
+    {
+        "landMarkName": "Sunland Baobab",
+        "actName": "Manyane Complex",
+        "actCat":"Drive",
+        "actLength":"1.3KM",
+        "actImg": "pnpIMG"
+    },
+    {
+        "landMarkName": "Pilanesberg National Park",
+        "actName": "Manyane Complex",
+        "actCat":"Bike",
+        "actLength":"6,67KM",
+        "actImg": "pnpIMG"
+    },
+    {
+        "landMarkName": "Phabeni Gate Kruger National Park",
+        "actName": "Manyane Complex",
+        "actCat":"Hiking",
+        "actLength":"",
+        "actImg": "pnpIMG"
+    },
+    
+    {
+        "landMarkName": "Free State National Botanical Garden",
+        "actName": "Manyane Complex",
+        "actCat":"Hiking",
+        "actLength":"4.8KM",
+        "actImg": "pnpIMG"
+    }
+]
