@@ -23,7 +23,7 @@ struct MainView: View
             FavouriteLandmarksView()
                 .tabItem
                 {
-                   Label("Favourites", systemImage: "list.dash")
+                   Label("Favourite", systemImage: "list.dash")
                     
                 }
         }
